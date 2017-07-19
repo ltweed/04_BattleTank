@@ -3,6 +3,7 @@ An open world head to head tank get vs AI or another player  -  Udemy Unreal cou
 
 
 
-#lecture list
-BT01 Initial Commit
-BT02 GDD
+##lecture list
+*BT01 Initial Commit
+*BT02 Update Readme
+*BT03 GDD
