@@ -3,6 +3,19 @@
 #include "TankAIController.h"
 #include "Tank.h"
 
+void ATankAIController::Tick(float DeltaTime)
+{
+	Super::Tick(DeltaTime);
+	if (GetPlayerTank())
+	{
+		//TODO Move towards player
+		
+		// Aim towards player
+		GetControlledTank()->AimAt(GetPlayerTank()->GetActorLocation());
+
+	}
+}
+
 ATank* ATankAIController::GetControlledTank() const
 {
 
