@@ -3,6 +3,7 @@
 
 #include "TankPlayerController.h"
 #include "BattleTank.h"
+#include "Tank.h"
 
 ATank* ATankPlayerController::GetControlledTank() const
 {
